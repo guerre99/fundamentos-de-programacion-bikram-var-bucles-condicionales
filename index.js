@@ -62,4 +62,89 @@ for (let i = 0; i < 11;i++){
     postI += postJ++
 }
 
+/* Ej 12 */
 
+let sumaPares = 0;
+
+for (let i = 0; i < 10; i++) {
+    if (i % 2 === 0) {
+        sumaPares += i;
+    }
+}
+
+/* Ej 13 */
+
+let variableValorNumerico = 24;
+
+/* Ej 14 */
+
+const MiNombre = "David";
+
+/* Ej 15 */
+
+const MiNumeroFav = 7;
+
+/* Ej 16 */
+
+let booleanoOr = (booleano1||booleano2);
+
+/* Ej 17 */
+
+let booleanoMix1 = (booleano1 && (TAU/2 == PI)||(variableValorNumerico>=MiNumeroFav));
+
+/* Ej 18 */
+
+let seisNoEsNueve = (6!==9);
+
+/* Ej 19 */
+
+let booleanoMix2 = (variableValorNumerico>0||variableValorNumerico<-(MiNumeroFav*TAU));
+
+/* Ej 20 */
+
+let valorSuma = (MiNumeroFav + variableValorNumerico);
+
+/* Ej 21 */
+
+let valorResta = (MiNumeroFav - variableValorNumerico);
+
+/* Ej 22 */
+
+let valorMultiplicacion = (MiNumeroFav*variableValorNumerico);
+
+/* Ej 23 */
+
+let valorDivision = (MiNumeroFav/3);
+
+/* Ej 24 */
+
+let contarHasta10 = 0;
+
+while(contarHasta10 <=10){
+    if(contarHasta10<10){
+    contarHasta10 += 1;
+    continue
+    }
+    else if (contarHasta10 === 10){
+        break
+    }
+}
+
+/* Ej 25 */
+
+
+let preI = 0, preJ = 0;
+
+for(i=0;i<11;i++){
+    preI += ++preJ
+}
+
+/* Ej 26 */
+
+let sumaImpares = 0;
+
+for (let i = 0; i < 10; i++) {
+    if (i % 2 !== 0) {
+        sumaImpares += i;
+    }
+}
