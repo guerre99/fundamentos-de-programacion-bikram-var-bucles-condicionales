@@ -44,15 +44,11 @@ let resultadoAntes = incrementarAntes;
 
 let contarHasta10_2 = 0;
 
-while (contarHasta10_2 <= 10){
-   if (contarHasta10_2 < 10){
-    contarHasta10_2++;
-    continue;
-   }
-   if (contarHasta10_2 === 10){
-    break;
-   }
+for (var i = 0; contarHasta10_2 !== 10; i++) {
+  contarHasta10_2++;
 }
+
+console.log(contarHasta10_2);
 
 /* Ej 11 */
 
